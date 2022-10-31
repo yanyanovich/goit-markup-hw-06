@@ -856,6 +856,6 @@ address {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 .modal-button:hover svg,
-modal-button:focus svg {
+.modal-button:focus svg {
   fill: var(--hover-color);
 }
