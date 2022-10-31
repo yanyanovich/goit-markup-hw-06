@@ -706,6 +706,9 @@ address {
   border: 1px solid silver;
   border-radius: 47px;
   cursor: pointer;
+  transition: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: var(--transition-function);
 }
 .modal-title {
   font-weight: 700;
@@ -731,7 +734,7 @@ address {
 }
 .input {
   width: 100%;
-  padding: 12px 12px 12px 42px;
+  padding: 12px 12px 12px 40px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   outline: none;
@@ -851,4 +854,8 @@ address {
 .form-button:hover,
 .form-button:focus {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+.modal-button:hover svg,
+modal-button:focus svg {
+  fill: var(--hover-color);
 }
